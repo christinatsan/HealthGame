@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.christina.healthgame.africaActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Level"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="#4d1300"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Your Jog in Africa"
+        android:layout_gravity="center"
+        android:textColor="#4d1300"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/africaEasyButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="5 - Easy"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="#ff6600"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/africaInterButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="10 - Intermediate"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="#ff0000"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/africaHardButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="30 - Hard"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="#00cc00"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/africaExtraButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="5- Extremely Hard"
+        android:layout_marginTop="30dp"
+        android:background="#663300"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/africaView"/>
+</LinearLayout>

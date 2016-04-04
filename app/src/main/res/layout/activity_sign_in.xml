@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.christina.healthgame.SignInActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff32f464"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        />
+
+    <TextView
+        android:id="@+id/textsign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Destination!"
+        android:layout_gravity="center"
+        android:textColor="#FF1A3A50"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/europeButton"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Europe"
+        android:textColor="#FFFFFF"
+        android:background="#FF1C97AF"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/africaButton"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="Africa"
+            android:textColor="#FFFFFF"
+            android:background="#fff44165"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/northAmericaButton"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="North America"
+        android:textColor="#FFFFFF"
+        android:background="#FF83699C"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+        <Button
+            android:id="@+id/SouthAmericaButton"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:text="South America"
+            android:textColor="#FFFFFF"
+            android:background="#ff47fec4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/asiaButton"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Asia"
+        android:textColor="#FFFFFF"
+        android:background="#ffe0d438"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/australiaButton"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:text="Australia"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:background="#FA860A"
+        android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.christina.healthgame" >
+    <uses-feature android:name="android.hardware.sensor.stepcounter" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Around The World" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:label="@string/title_activity_sign_in" >
+        </activity>
+        <activity
+            android:name=".ReportActivity"
+            android:label="@string/title_activity_report" >
+        </activity>
+        <activity
+            android:name=".europeActivity"
+            android:label="@string/title_activity_europe" >
+        </activity>
+        <activity
+            android:name=".africaActivity"
+            android:label="@string/title_activity_africa" >
+        </activity>
+        <activity
+            android:name=".PaceEuropeActivity"
+            android:label="@string/title_activity_pace" >
+        </activity>
+        <activity
+            android:name=".PaceAfricaAcitivity"
+            android:label="@string/title_activity_africa_pace" >
+        </activity>
+        <activity
+            android:name=".PaceEuropeActivity2"
+            android:label="@string/title_activity_pace_europe_activity2" >
+        </activity>
+        <activity
+            android:name=".PaceEuropeActivity3"
+            android:label="@string/title_activity_pace_europe_activity3" >
+        </activity>
+        <activity
+            android:name=".PaceEuropeActivity4"
+            android:label="@string/title_activity_pace_europe_activity4" >
+        </activity>
+        <activity
+            android:name=".northAmericaActivity"
+            android:label="@string/title_activity_north_america" >
+        </activity>
+        <activity
+            android:name=".southAmericaActivity"
+            android:label="@string/title_activity_south_america" >
+        </activity>
+        <activity
+            android:name=".asiaActivity"
+            android:label="@string/title_activity_asia" >
+        </activity>
+        <activity
+            android:name=".australiaActivity"
+            android:label="@string/title_activity_australia" >
+        </activity>
+        <activity
+            android:name=".easyTenAfrica"
+            android:label="@string/title_activity_easy_ten_africa" >
+        </activity>
+        <activity
+            android:name=".easyFiveAfrica"
+            android:label="@string/title_activity_easy_five_africa" >
+        </activity>
+        <activity
+            android:name=".easyThreeAfrica"
+            android:label="@string/title_activity_easy_three_africa" >
+        </activity>
+        <activity
+            android:name=".easyFiveEurope"
+            android:label="@string/title_activity_easy_five_europe" >
+        </activity>
+    </application>
+
+</manifest>

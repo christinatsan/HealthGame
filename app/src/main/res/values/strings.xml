@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Health Game</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_europe">europeActivity</string>
+    <string name="title_activity_africa">africaActivity</string>
+    <string name="title_activity_pace">PaceActivity</string>
+    <string name="title_activity_africa_pace">africaPaceActivity</string>
+    <string name="title_activity_pace_europe_activity2">PaceEuropeActivity2</string>
+    <string name="title_activity_pace_europe_activity3">PaceEuropeActivity3</string>
+    <string name="title_activity_pace_europe_activity4">PaceEuropeActivity4</string>
+    <string name="title_activity_north_america">northAmericaActivity</string>
+    <string name="title_activity_south_america">southAmericaActivity</string>
+    <string name="title_activity_asia">asiaActivity</string>
+    <string name="title_activity_australia">australiaActivity</string>
+    <string name="title_activity_easy_ten_africa">easyTenAfrica</string>
+    <string name="title_activity_easy_five_africa">easyFiveAfrica</string>
+    <string name="title_activity_easy_three_africa">easyThreeAfrica</string>
+    <string name="title_activity_easy_five_europe">easyFiveEurope</string>
+</resources>

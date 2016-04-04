@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.christina.healthgame.PaceAfricaActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Choose Time/Pace"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tenButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="10 min/pace"
+        android:background="#ff704d"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/fiveButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="5 min/pace"
+        android:background="#ff704d"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/threeButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="3 min/pace"
+        android:background="#ff704d"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/joggingClip"/>
+
+</LinearLayout>

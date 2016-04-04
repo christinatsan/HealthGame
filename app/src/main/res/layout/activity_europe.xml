@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.christina.healthgame.europeActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Level"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="#4d4dff"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For Your Jog in Europe"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="#4d4dff"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/europeEasyButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="5 - Easy"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="#00eeff"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/europeInterButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="10 - Intermediate"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="#ec80ff"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/europeHardButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="30 - Hard"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="#8280ff"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/europeExtraButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="50 - Extremely Hard"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="#ad254d"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:id="@+id/europeView"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
